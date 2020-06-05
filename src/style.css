@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #40514e;
+  color: #e4f9f5;
+  font-family: 'Righteous', cursive;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 18px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 25px;
+}
+
+.actions-wrapper span {
+  font-size: 38px;
+  width: 50px;
+}
+
+.clock-container {
+  display: inline-block;
+  border: 10px solid #11999e;
+  border-radius: 35px;
+  padding: 20px;
+  margin-top: 10px;
+  width: 350px;
+}
+
+.clock-container h1 {
+  margin: 15px
+}
+
+.clock-container span {
+  font-size: 65px;
+}
